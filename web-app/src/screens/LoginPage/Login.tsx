@@ -93,11 +93,12 @@ const Login = () => {
       loginComponent = (
         <Box
           sx={{
+            backgroundColor: "red",
             textAlign: "center",
             "& .loadingLoginStrategy": {
               textAlign: "center",
-              width: 40,
-              height: 40,
+              width: 400,
+              height: 400,
             },
             "& .buttonRetry": {
               display: "flex",
