@@ -1,4 +1,4 @@
-module github.com/minio/console
+module github.com/rafaelb13/console-storage
 
 go 1.21
 
