@@ -23,9 +23,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/minio/console/pkg/logger/config"
-	"github.com/minio/console/pkg/logger/target/http"
 	"github.com/minio/pkg/v2/env"
+	"github.com/rafaelb13/console-storage/pkg/logger/config"
+	"github.com/rafaelb13/console-storage/pkg/logger/target/http"
 )
 
 // NewConfig - initialize new logger config.

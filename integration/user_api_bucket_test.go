@@ -36,8 +36,8 @@ import (
 
 	"github.com/minio/minio-go/v7"
 
-	"github.com/minio/console/models"
 	"github.com/minio/minio-go/v7/pkg/credentials"
+	"github.com/rafaelb13/console-storage/models"
 	"github.com/stretchr/testify/assert"
 )
 

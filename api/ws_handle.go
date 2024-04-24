@@ -29,12 +29,12 @@ import (
 
 	"github.com/minio/madmin-go/v3"
 
-	"github.com/minio/console/pkg/utils"
+	"github.com/rafaelb13/console-storage/pkg/utils"
 
 	errorsApi "github.com/go-openapi/errors"
-	"github.com/minio/console/models"
-	"github.com/minio/console/pkg/auth"
 	"github.com/minio/websocket"
+	"github.com/rafaelb13/console-storage/models"
+	"github.com/rafaelb13/console-storage/pkg/auth"
 )
 
 var upgrader = websocket.Upgrader{

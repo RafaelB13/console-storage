@@ -27,7 +27,7 @@ import (
 
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/minio/console/models"
+	"github.com/rafaelb13/console-storage/models"
 )
 
 // DeleteConfigurationHandlerFunc turns a function with the right signature into a delete configuration handler

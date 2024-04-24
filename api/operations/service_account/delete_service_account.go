@@ -27,7 +27,7 @@ import (
 
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/minio/console/models"
+	"github.com/rafaelb13/console-storage/models"
 )
 
 // DeleteServiceAccountHandlerFunc turns a function with the right signature into a delete service account handler

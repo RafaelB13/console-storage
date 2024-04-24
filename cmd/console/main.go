@@ -24,10 +24,10 @@ import (
 	"time"
 
 	"github.com/minio/cli"
-	"github.com/minio/console/pkg"
 	"github.com/minio/pkg/v2/console"
 	"github.com/minio/pkg/v2/trie"
 	"github.com/minio/pkg/v2/words"
+	"github.com/rafaelb13/console-storage/pkg"
 )
 
 // Help template for Console.

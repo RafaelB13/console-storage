@@ -24,10 +24,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/minio/console/api/operations"
-	subnetApi "github.com/minio/console/api/operations/subnet"
-	"github.com/minio/console/models"
 	"github.com/minio/madmin-go/v3"
+	"github.com/rafaelb13/console-storage/api/operations"
+	subnetApi "github.com/rafaelb13/console-storage/api/operations/subnet"
+	"github.com/rafaelb13/console-storage/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

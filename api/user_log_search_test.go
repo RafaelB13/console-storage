@@ -24,7 +24,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/minio/console/models"
+	"github.com/rafaelb13/console-storage/models"
 )
 
 func TestLogSearch(t *testing.T) {

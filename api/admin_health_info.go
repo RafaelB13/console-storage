@@ -27,13 +27,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/minio/console/pkg/logger"
-	"github.com/minio/console/pkg/utils"
+	"github.com/rafaelb13/console-storage/pkg/logger"
+	"github.com/rafaelb13/console-storage/pkg/utils"
 
-	subnet "github.com/minio/console/pkg/subnet"
 	"github.com/minio/madmin-go/v3"
 	mc "github.com/minio/mc/cmd"
 	"github.com/minio/websocket"
+	subnet "github.com/rafaelb13/console-storage/pkg/subnet"
 )
 
 // startHealthInfo starts fetching mc.ServerHealthInfo and

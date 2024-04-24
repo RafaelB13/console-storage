@@ -24,11 +24,11 @@ import (
 
 	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/swag"
-	"github.com/minio/console/api/operations"
-	"github.com/minio/console/models"
 	madmin "github.com/minio/madmin-go/v3"
+	"github.com/rafaelb13/console-storage/api/operations"
+	"github.com/rafaelb13/console-storage/models"
 
-	cfgApi "github.com/minio/console/api/operations/configuration"
+	cfgApi "github.com/rafaelb13/console-storage/api/operations/configuration"
 )
 
 func registerConfigHandlers(api *operations.ConsoleAPI) {

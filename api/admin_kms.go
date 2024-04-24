@@ -23,10 +23,10 @@ import (
 	"sort"
 
 	"github.com/go-openapi/runtime/middleware"
-	"github.com/minio/console/api/operations"
-	kmsAPI "github.com/minio/console/api/operations/k_m_s"
-	"github.com/minio/console/models"
 	"github.com/minio/madmin-go/v3"
+	"github.com/rafaelb13/console-storage/api/operations"
+	kmsAPI "github.com/rafaelb13/console-storage/api/operations/k_m_s"
+	"github.com/rafaelb13/console-storage/models"
 )
 
 func registerKMSHandlers(api *operations.ConsoleAPI) {

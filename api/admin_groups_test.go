@@ -23,8 +23,8 @@ import (
 	"testing"
 
 	"github.com/go-openapi/swag"
-	"github.com/minio/console/models"
 	"github.com/minio/madmin-go/v3"
+	"github.com/rafaelb13/console-storage/models"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -33,18 +33,18 @@ import (
 
 	"github.com/minio/minio-go/v7"
 
-	"github.com/minio/console/pkg/utils"
+	"github.com/rafaelb13/console-storage/pkg/utils"
 
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
 	"github.com/klauspost/compress/zip"
-	"github.com/minio/console/api/operations"
-	objectApi "github.com/minio/console/api/operations/object"
-	"github.com/minio/console/models"
 	mc "github.com/minio/mc/cmd"
 	"github.com/minio/mc/pkg/probe"
 	"github.com/minio/minio-go/v7/pkg/tags"
 	"github.com/minio/pkg/v2/mimedb"
+	"github.com/rafaelb13/console-storage/api/operations"
+	objectApi "github.com/rafaelb13/console-storage/api/operations/object"
+	"github.com/rafaelb13/console-storage/models"
 )
 
 // enum types

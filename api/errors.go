@@ -23,8 +23,8 @@ import (
 
 	"github.com/minio/minio-go/v7"
 
-	"github.com/minio/console/models"
 	"github.com/minio/madmin-go/v3"
+	"github.com/rafaelb13/console-storage/models"
 )
 
 var (
